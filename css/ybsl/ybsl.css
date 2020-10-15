@@ -1,0 +1,255 @@
+/* swiper 版心  */
+.swiper {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.swiper .swiper-slide {
+  width: 100%;
+  text-align: center;
+}
+
+.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* 内容区域 */
+.con {
+  width: 100%;
+}
+
+.con .con_01 {
+  width: 100%;
+  height: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 7rem;
+}
+
+.con .con_01 .title {
+  width: 100%;
+  text-align: center;
+}
+
+.con .con_01 .title h3 {
+  font-size: 1rem;
+  color: #ff8000;
+}
+
+.con .con_01 .box {
+  width: 100%;
+  height: 12rem;
+  background: url(../../images/ybsl/con_01_bgc.jpg)no-repeat center / 100% 12rem;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.con .con_01 .box>h3 {
+  font-size: .8rem;
+  color: #fff;
+  position: relative;
+}
+
+.con .con_01 .box h3:after {
+  position: absolute;
+  width: 3.5rem;
+  height: .1rem;
+  content: '';
+  background-color: #fff;
+  top: 1.5rem;
+  left: 0rem;
+}
+
+.con .con_01 .box .text {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #eee;
+  border-radius: .5rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  box-shadow: 0px 5px 10px #333;
+}
+
+.con .con_01 .box .text img {
+  display: block;
+  width: 100%;
+}
+
+.con .con_01 .box .text p {
+  font-size: .7rem;
+  padding: .3rem;
+  box-sizing: border-box;
+  text-indent: 2em;
+}
+
+/* 联系按钮 */
+.con .but_btn {
+  width: 100%;
+  padding: 0rem 1.1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+
+.con .but_btn h3 {
+  font-size: .8rem;
+  text-align: center;
+  color: #0066CC;
+  line-height: 2rem;
+}
+
+.con .but_btn .fl,
+.con .but_btn .fr {
+  width: 45%;
+  background-color: #ff8000;
+  border-radius: 0.4rem;
+  padding: 0.266667rem;
+  box-sizing: border-box;
+  margin-bottom: .8rem;
+  margin-top: .5rem;
+}
+
+.con .but_btn .fl a {
+  letter-spacing: 0px;
+}
+
+.con .but_btn div a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.con .but_btn div a span {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.2rem;
+  background: url(../../images/photo_02.png)no-repeat center / 1.4rem 1.2rem;
+  vertical-align: middle;
+}
+
+.con .but_btn .fl a span {
+  background: url(../../images/zx.png)no-repeat center / 1.4rem 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.con .but_btn div:first-child a {
+  margin-top: 0.133333rem;
+}
+
+
+.con .but_btn .fl {
+  float: left;
+  position: relative;
+}
+
+.con .but_btn .fr {
+  float: right;
+  background-color: #AE57A4;
+  position: relative;
+}
+
+
+.con .but_btn .fl:after,
+.con .but_btn .fr:after {
+  position: absolute;
+  width: 110%;
+  height: 1.8rem;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: -.0rem;
+  left: -.55rem;
+  border-radius: 0.4rem;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #ff8000;
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: but_01_sonarEffect 1.3s ease-out 75ms infinite;
+  animation: but_01_sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes but_01_sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+
+.con .but_btn .fr:after {
+  width: 110%;
+  box-shadow: 0 0 0 2px #AE57A4;
+  right: 0px;
+  -webkit-animation: but_02_sonarEffect 1.3s ease-out 75ms infinite;
+  animation: but_02_sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes but_02_sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+.con .clear {
+  clear: both
+}
+
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .con .but_btn .fl:after,
+  .con .but_btn .fr:after {
+    left: -.4rem;
+  }
+}
+
+
+
+/* 适配 Galaxy s5 */
+@media only screen and (max-width: 360px) {
+
+  .con .btn .fl:after,
+  .con .btn .fr:after {
+    left: -.45rem;
+  }
+}
+
+
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .con .btn .fl:after,
+  .con .btn .fr:after {
+    left: -.4rem;
+  }
+}

@@ -1,0 +1,203 @@
+/* 版心 */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+/* 内容区域 */
+.con {
+  width: 100%;
+  overflow: hidden;
+}
+
+.con .title {
+  height: 2rem;
+  text-align: center;
+}
+
+.con .title h3 {
+  font-size: 1.1rem;
+  color: #ff8000;
+}
+
+
+/* 地址详情 */
+
+.con .details {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.con .details .fl_img {
+  width: 7rem;
+  float: left;
+  text-align: center;
+}
+
+.con .details .fl_img img {
+  width: 100%;
+  display: block;
+}
+
+.con .details .fr_text {
+  width: 11rem;
+  float: right;
+}
+
+.con .details .fr_text h2 {
+  font-size: 1rem;
+  color: #AE57A4;
+}
+
+.con .details .fr_text p {
+  font-size: .7rem;
+  color: #555;
+}
+
+.con .details .fr_text p strong {
+  color: #555;
+}
+
+
+
+
+/* 导航到店按钮 */
+.btn {
+  width: 100%;
+  padding: 0px .5rem;
+  box-sizing: border-box;
+  height: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.btn>a {
+  width: 7rem;
+  display: block;
+  padding: 0px .5rem;
+  box-sizing: border-box;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff8800;
+  border-radius: 0.533333rem;
+  float: left;
+  margin-left: .5rem;
+}
+
+.btn a span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url(../../images/dj.png)no-repeat center / 1.5rem 1.5rem;
+  vertical-align: middle;
+  margin-top: -.3rem;
+}
+
+.btn a:nth-child(2) {
+  width: 10rem;
+  background-color: #66B3FF;
+}
+
+.btn a:nth-child(2) span {
+  background: url(../../images/dh.png)no-repeat center / 1.5rem 1.5rem;
+  margin-top: -.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 百度地图 */
+.con .map {
+  width: 100%;
+  height: 18rem;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+#allmap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: "微软雅黑";
+}
+
+.map #allmap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-size: 0.426667rem;
+}
+
+.map_list {
+  width: 100%;
+  margin-top: 0.533333rem;
+}
+
+.map_list ul {
+  list-style: none;
+}
+
+.map_list ul li {
+  margin: 0.266667rem 0.266667rem;
+  padding: 0.533333rem;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+
+.map_list ul li h4 {
+  font-size: 0.8rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  color: #333;
+}
+
+.map_list ul li p {
+  margin-top: 0.266667rem;
+  font-size: 0.666667rem;
+  line-height: 1.2rem;
+  color: #666;
+}
+
+.map_h4 {
+  font-size: 0.8rem;
+  color: #715ed3;
+  margin-bottom: 0.533333rem;
+}
+
+.map_p {
+  font-size: 0.533333rem;
+  line-height: 1rem;
+}
+
+.map_span {
+  color: red;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.map_span_01 {
+  color: #578bdb;
+  font-weight: 700;
+  font-size: 0.75rem;
+}

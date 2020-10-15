@@ -1,0 +1,194 @@
+/* 版心 */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+/* 内容区域 */
+.con {
+  width: 100%;
+  text-align: center;
+}
+
+.con img {
+  display: block;
+  width: 100%;
+}
+
+
+/* 联系按钮 */
+.btn {
+  width: 100%;
+  padding: 0rem 1.1rem;
+  box-sizing: border-box;
+}
+
+.btn h3 {
+  font-size: .8rem;
+  text-align: center;
+  color: #0066CC;
+  line-height: 2rem;
+}
+
+.btn .fl,
+.btn .fr {
+  width: 45%;
+  background-color: #ff8000;
+  border-radius: 0.4rem;
+  padding: 0.266667rem;
+  box-sizing: border-box;
+  margin-bottom: .8rem;
+  margin-top: .5rem;
+}
+
+.btn .fl a {
+  letter-spacing: 0px;
+}
+
+.btn div a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn div a span {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.2rem;
+  background: url(../../images/photo_02.png)no-repeat center / 1.4rem 1.2rem;
+  vertical-align: middle;
+}
+
+.btn .fl a span {
+  background: url(../../images/zx.png)no-repeat center / 1.4rem 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.btn div:first-child a {
+  margin-top: 0.133333rem;
+}
+
+
+.btn .fl {
+  float: left;
+  position: relative;
+}
+
+.btn .fr {
+  float: right;
+  background-color: #AE57A4;
+  position: relative;
+}
+
+
+.btn .fl:after,
+.btn .fr:after {
+  position: absolute;
+  width: 110%;
+  height: 1.8rem;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: -.0rem;
+  left: -.55rem;
+  border-radius: 0.4rem;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #ff8000;
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms infinite;
+  animation: sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+
+.btn .fr:after {
+  width: 109%;
+  box-shadow: 0 0 0 2px #AE57A4;
+  right: 0px;
+  -webkit-animation: sonarEffect2 1.3s ease-out 75ms infinite;
+  animation: sonarEffect2 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes sonarEffect2 {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+.clear {
+  clear: both
+}
+
+
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.35rem;
+  }
+}
+
+
+
+/* 适配 Galaxy s5 */
+@media only screen and (max-width: 360px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.45rem;
+  }
+}
+
+
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.4rem;
+  }
+}

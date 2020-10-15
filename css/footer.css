@@ -1,0 +1,262 @@
+footer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.3rem;
+}
+
+footer img {
+  width: 100%;
+  display: block;
+}
+
+body,
+html {
+  position: relative;
+}
+
+/* 底部按钮 */
+.bottom {
+  width: 1024px;
+  height: 3rem;
+  position: fixed;
+  bottom: 0px;
+  overflow: hidden;
+  z-index: 3;
+  background-color: #C4E1FF;
+}
+
+/* 适配平板 pro */
+@media only screen and (max-width: 1024px) {
+
+  .bottom {
+    width: 27.3rem;
+  }
+}
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .bottom {
+    width: 20.5rem;
+  }
+}
+
+/* 适配 Photo6、7、8Plus */
+@media only screen and (max-width: 414px) {
+
+  .bottom {
+    width: 20.3rem;
+  }
+}
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .bottom {
+    width: 22rem;
+  }
+}
+
+
+
+.bottom .fl,
+.bottom .fr {
+  float: left;
+  width: 50%;
+  height: 3rem;
+  overflow: hidden;
+  text-align: center;
+  margin-top: .3rem;
+}
+
+.bottom a .fr {
+  float: right;
+}
+
+.bottom a.but {
+  display: inline-block;
+  width: 70%;
+  margin: 0.4rem;
+  padding: .3rem;
+  box-sizing: border-box;
+  font-size: .8rem;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #01B468;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none;
+  -webkit-animation: gelatine 2s infinite;
+  animation: gelatine 2s infinite;
+  -webkit-box-shadow: 0 0 0 4px #eee, 0 0 0 8px #01B468;
+  box-shadow: 0 0 0 4px #eee, 0 0 0 8px #01B468;
+  -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+}
+
+.bottom .fr a.but {
+  background-color: #FF60AF;
+  -webkit-box-shadow: 0 0 0 4px #eee, 0 0 0 8px #FF60AF;
+  box-shadow: 0 0 0 4px #eee, 0 0 0 8px #FF60AF;
+}
+
+.bottom a.but span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1rem;
+  vertical-align: middle;
+  background: url(../images/yhj.png)no-repeat center / 1.5rem 1rem;
+  margin-right: .5rem;
+}
+
+.bottom .fr a.but span {
+  background: url(../images/photo_03.png)no-repeat center / 1.5rem 1rem;
+
+}
+
+/**
+ * $keyframes \ gelatine 
+ **/
+@keyframes gelatine {
+
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+
+  from,
+  to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 弹出层 */
+.Popup {
+  width: 12rem;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 9;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: none;
+}
+
+.Popup img {
+  width: 100%;
+  display: block;
+}
+
+.Popup span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 0;
+  top: .1rem;
+}
+
+.Popup a {
+  display: block;
+  width: 6rem;
+  height: 2rem;
+  margin-top: -2rem;
+  position: absolute;
+  z-index: 99;
+  bottom: 0rem;
+}
+
+.Popup a:first-child {
+  left: 0;
+}
+
+.Popup a:last-child {
+  right: 0;
+}
+
+
+/* 制顶小火箭 */
+.fright {
+  float: right;
+  width: 3rem;
+  position: fixed;
+  right: 0;
+  bottom: 10rem;
+  ;
+  z-index: 999;
+  display: none
+}
+
+.fright img {
+  width: 3rem;
+}

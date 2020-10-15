@@ -1,0 +1,348 @@
+/* swiper 版心 */
+.swiper {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.swiper .swiper-slide {
+  width: 100%;
+  text-align: center;
+}
+
+.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* 内容区域 */
+.con {
+  width: 100%;
+}
+
+.con .con_01 {
+  width: 100%;
+}
+
+.con .con_01 .title {
+  width: 100%;
+  text-align: center;
+}
+
+.con .con_01 .title h3 {
+  font-size: 1rem;
+  color: #5A5AAD;
+}
+
+.con .con_01 .title p {
+  font-size: .7rem;
+}
+
+.con .con_01 .box {
+  width: 100%;
+}
+
+.con .con_01 .box ul {
+  width: 100%;
+  overflow: hidden;
+  padding: .3rem;
+  box-sizing: border-box;
+}
+
+.con .con_01 .box ul li {
+  width: 32%;
+  float: left;
+  margin: .128rem;
+}
+
+.con .con_01 .box ul li img {
+  display: block;
+  width: 100%;
+}
+
+.con .con_02 {
+  width: 100%;
+}
+
+.con .con_02 .box {
+  padding: .5rem;
+  box-sizing: border-box;
+  background-color: #E6E6F2;
+}
+
+.con .con_02 .box .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.con .con_02 .box .title h3 {
+  font-size: 1rem;
+  color: #5A5AAD;
+}
+
+.con .con_02 .box .text {
+  width: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: .5rem;
+  background-color: #fff;
+  padding: .5rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.con .con_02 .box .text img:nth-child(1) {
+  display: block;
+  width: 35%;
+  float: left;
+  margin-top: .3rem;
+}
+
+.con .con_02 .box .text img:nth-child(3) {
+  width: 100%;
+  margin-top: .8rem;
+}
+
+.con .con_02 .box .text .fr {
+  width: 58%;
+  float: right;
+}
+
+.con .con_02 .box .text .fr h3 {
+  font-size: .8rem;
+  color: #ff8800;
+}
+
+.con .con_02 .box .text .fr p {
+  font-size: .7rem;
+  color: #333;
+}
+
+.con .con_02 .box .text .fr p strong {
+  font-size: .75rem;
+  color: #0080FF;
+}
+
+
+/* 咨询按钮 */
+.con .con_02 .box .text .paging {
+  width: 100%;
+  margin-top: .3rem;
+}
+
+.con .con_02 .box .text .paging a {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.133333rem 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: #d1000d;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.con .con_02 .box .text .paging a:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  left: -50%;
+  right: -50%;
+  background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.5)50%, rgba(229, 172, 142, 0));
+  transform: rotateZ(60deg) translate(-5em, 9em);
+  animation: btnSheen 1.5s linear infinite;
+}
+
+
+@keyframes btnSheen {
+  100% {
+    display: block;
+    transform: rotateZ(60deg) translate(1em, -16em);
+  }
+}
+
+.con .con_03 {
+  width: 100%;
+  text-align: center;
+}
+
+.con .con_03 img {
+  display: block;
+  width: 100%;
+}
+
+/* 联系按钮 */
+.but_btn {
+  width: 100%;
+  padding: 0rem 1.1rem;
+  box-sizing: border-box;
+}
+
+.but_btn h3 {
+  font-size: .8rem;
+  text-align: center;
+  color: #0066CC;
+  line-height: 2rem;
+}
+
+.but_btn .fl,
+.but_btn .fr {
+  width: 45%;
+  background-color: #ff8000;
+  border-radius: 0.4rem;
+  padding: 0.266667rem;
+  box-sizing: border-box;
+  margin-bottom: .8rem;
+  margin-top: .5rem;
+}
+
+.but_btn .fl a {
+  letter-spacing: 0px;
+}
+
+.but_btn div a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.but_btn div a span {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.2rem;
+  background: url(../../images/photo_02.png)no-repeat center / 1.4rem 1.2rem;
+  vertical-align: middle;
+}
+
+.but_btn .fl a span {
+  background: url(../../images/zx.png)no-repeat center / 1.4rem 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.but_btn div:first-child a {
+  margin-top: 0.133333rem;
+}
+
+
+.but_btn .fl {
+  float: left;
+  position: relative;
+}
+
+.but_btn .fr {
+  float: right;
+  background-color: #AE57A4;
+  position: relative;
+}
+
+
+.but_btn .fl:after,
+.but_btn .fr:after {
+  position: absolute;
+  width: 110%;
+  height: 1.8rem;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: -.0rem;
+  left: -.5rem;
+  border-radius: 0.4rem;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #ff8000;
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: but_01_sonarEffect 1.3s ease-out 75ms infinite;
+  animation: but_01_sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes but_01_sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+
+.but_btn .fr:after {
+  width: 109%;
+  box-shadow: 0 0 0 2px #AE57A4;
+  right: 0px;
+  -webkit-animation: but_02_sonarEffect 1.3s ease-out 75ms infinite;
+  animation: but_02_sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes but_02_sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+.clear {
+  clear: both
+}
+
+
+
+
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .but_btn .fl:after,
+  .but_btn .fr:after {
+    left: -.35rem;
+  }
+}
+
+
+
+/* 适配 Galaxy s5 */
+@media only screen and (max-width: 360px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.45rem;
+  }
+}
+
+
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.4rem;
+  }
+}

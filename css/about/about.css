@@ -1,0 +1,187 @@
+/* swiper 版心 */
+.swiper {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2.5rem;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper .swiper-slide img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.con {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* 医院介绍 文章 */
+.text {
+  width: 100%;
+  /* height: 1300px; */
+  padding: 0.4rem 0.533333rem;
+  box-sizing: border-box;
+  background: url(../../images/about/cont_bgc.jpg)no-repeat center / 100% 30rem;
+}
+
+.text .text_box {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px #333;
+  border-radius: 0.533333rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.text .text_box h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff8800;
+}
+
+.text p {
+  text-indent: 2em;
+  font-size: .8rem;
+}
+
+.con .text .img {
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.con .text .img img {
+  width: 100%;
+  border-radius: 0.533333rem;
+}
+
+/* 医疗团队 */
+
+.con .title {
+  width: 100%;
+  height: 1.53rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid #3285ff;
+  overflow: hidden;
+  margin-top: 0.533333rem;
+}
+
+.con .title .title_text {
+  width: 5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.55rem;
+  background: #3285ff;
+  color: #fff;
+  border-radius: 0 1rem 0 0;
+  float: left;
+  font-weight: 600;
+}
+
+.con .title .title_fr {
+  float: right;
+  width: 14rem;
+  height: 1.53rem;
+}
+
+.con .title .title_fr P {
+  font-size: .5rem;
+  line-height: .8rem;
+}
+
+.con .title .title_fr P:nth-child(1) {
+  font-size: .73rem;
+  font-weight: 600;
+  color: #ff8000;
+}
+
+.con .title .title_fr P:nth-child(2) {
+
+  font-size: .4rem;
+}
+
+/* 医生专家团队 内容 */
+.yszj_con {
+  width: 100%;
+  text-align: center;
+}
+
+.yszj_con img {
+  width: 100%;
+  display: block;
+}
+
+.yszj_btn {
+  width: 100%;
+  padding: 0.533333rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.yszj_btn a {
+  display: block;
+  width: 45%;
+  height: 2rem;
+  color: #fff;
+  float: left;
+  margin-left: 0.533333rem;
+  font-size: .8rem;
+  text-align: center;
+  line-height: 2rem;
+  background-color: #5A5AAD;
+  border-radius: 0.533333rem;
+}
+
+.yszj_btn a span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  background: url(../../images/ys.png)no-repeat center /1rem 1rem;
+  margin-right: .6rem;
+}
+
+.yszj_btn a:nth-child(2) {
+  background-color: #4F9D9D;
+}
+
+.yszj_btn a:nth-child(2) span {
+  background: url(../../images/photo_02.png)no-repeat center /1.3rem 1.3rem;
+}

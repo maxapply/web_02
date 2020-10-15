@@ -1,0 +1,84 @@
+.header {
+  width: 1024px;
+  height: 2.5rem;
+  overflow: hidden;
+  padding: 0.266667rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+/* 适配平板 pro */
+@media only screen and (max-width: 1024px) {
+
+  .header {
+    width: 27.3rem;
+  }
+}
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .header {
+    width: 20.5rem;
+  }
+}
+
+/* 适配 Photo6、7、8Plus */
+@media only screen and (max-width: 414px) {
+
+  .header {
+    width: 20.3rem;
+  }
+}
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .header {
+    width: 22rem;
+  }
+}
+
+
+
+
+
+.header .home {
+  width: 2rem;
+  float: left;
+  text-align: center;
+}
+
+.header .home img {
+  display: block;
+  width: 2rem;
+  margin-top: .1rem;
+}
+
+
+
+.header .logo {
+  width: 13rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header .logo img {
+  width: 13rem;
+}
+
+.header .photo {
+  float: right;
+  width: 2rem;
+  margin-right: 0.3rem;
+}
+
+.header .photo img {
+  width: 2rem;
+  margin-top: .1rem;
+}

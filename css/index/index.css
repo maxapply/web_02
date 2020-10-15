@@ -1,0 +1,440 @@
+/* swiper 版心 */
+.swiper {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2.5rem;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper .swiper-slide img {
+  width: 100%;
+}
+
+
+/* 内容区域 */
+.con {
+  width: 100%;
+  overflow: hidden;
+}
+
+.con .con_01 {
+  margin-top: 1rem;
+}
+
+.con>img {
+  width: 100%;
+}
+
+.con .title,
+.con_02 .title {
+  width: 100%;
+  height: 1.53rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid #3285ff;
+  overflow: hidden;
+  margin-top: 0.533333rem;
+}
+
+.con .title .title_text,
+.con_02 .title .title_text {
+  width: 5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.55rem;
+  background: #3285ff;
+  color: #fff;
+  border-radius: 0 1rem 0 0;
+  float: left;
+  font-weight: 600;
+}
+
+.con .title .title_fr,
+.con_02 .title .title_fr {
+  float: right;
+  width: 14rem;
+  height: 1.53rem;
+}
+
+.con .title .title_fr P,
+.con_02 .title .title_fr p {
+  font-size: .5rem;
+  line-height: .8rem;
+}
+
+.con .title .title_fr P:nth-child(1),
+.con_02 .title .title_fr p:nth-child(1) {
+  font-size: .73rem;
+  font-weight: 600;
+  color: #ff8000;
+}
+
+.con .title .title_fr P:nth-child(2),
+.con_02 .title .title_fr P:nth-child(2) {
+  font-size: .4rem;
+}
+
+/* 疾病列表 */
+.jb_swiper {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0.533333rem;
+  overflow: hidden;
+}
+
+.jb_swiper .list {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.jb_swiper .list a {
+  display: block;
+}
+
+.jb_swiper .list a:first-child {
+  width: 100%;
+}
+
+.jb_swiper .list a:first-child img {
+  width: 100%;
+}
+
+.jb_swiper .list a:last-child {
+  width: 100%;
+  font-size: .7rem;
+}
+
+.jb_swiper .list:last-child {
+  margin-top: .4rem;
+}
+
+.jb_swiper .list:last-child a:last-child {
+  margin-top: .4rem;
+}
+
+
+
+
+
+/* 热门疾病查询 */
+.jb_box {
+  width: 100%;
+  margin-top: 0.8rem;
+
+}
+
+.jb_box .jb_title {
+  width: 100%;
+  height: 1.6rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.jb_box .jb_title h3 {
+  font-size: 0.75rem;
+  line-height: 1.6rem;
+  color: #00CACA;
+}
+
+.jb_box .js_lis {
+  width: 100%;
+  height: 9rem;
+  background: url(../../images/index/rmjb.jpg) no-repeat center / 100% 8rem;
+  overflow: hidden;
+}
+
+.jb_box .js_lis ul:first-child {
+  width: 100%;
+  display: flex;
+  margin-top: 0.3rem;
+}
+
+.jb_box .js_lis ul:first-child li {
+  flex: 1;
+  height: 1rem;
+  margin: 0.533333rem;
+  border: 1px solid #fff;
+  text-align: center;
+  transform: scale(.8) !important;
+  border-radius: 0.533333rem;
+}
+
+.jb_box .js_lis ul:first-child li.is_article {
+  background-color: #fff;
+  transform: scale(1) !important;
+}
+
+.jb_box .js_lis ul .is_article h3 {
+
+  color: #ff8000 !important;
+}
+
+
+.jb_box .js_lis ul:first-child li h3 {
+  font-size: .8rem;
+  color: #3C3C3C;
+  line-height: 1.1rem;
+}
+
+.jb_box .js_lis .jb_con {
+  width: 95%;
+  height: 5.6rem;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  font-size: .7rem;
+  overflow: hidden;
+}
+
+.jb_box .js_lis .jb_con a {
+  display: block;
+  width: 48%;
+  height: 2.4rem;
+  font-size: .7rem;
+  color: #f0f0f0;
+  float: left;
+  margin-left: 0.266667rem;
+  margin-top: 0.266667rem;
+  border-radius: 0.4rem;
+  background: url(../../images/index/00012.png);
+  background-size: 48% 2.3rem;
+  padding: 0.213333rem 0.5rem;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+
+.jb_box .js_lis .jb_con a span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../../images/index/wt.png)no-repeat center / 1.2rem 1.2rem;
+  vertical-align: middle;
+  float: right;
+  margin-top: 0.266667rem;
+
+}
+
+.jb_box .js_lis .jb_con a:nth-child(2n) {
+  line-height: 1rem;
+}
+
+.jb_box .js_lis .jb_con a:nth-child(2n) span {
+  margin-top: -.7rem;
+}
+
+.jb_box .js_lis .jb_con.no_show {
+  display: none;
+}
+
+.jb_box .js_lis .jb_con.no_show .letter {
+  letter-spacing: 1px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0rem 1.1rem;
+  box-sizing: border-box;
+}
+
+.btn .fl,
+.btn .fr {
+  width: 45%;
+  background-color: #ff8000;
+  border-radius: 0.4rem;
+  padding: 0.266667rem;
+  box-sizing: border-box;
+  margin-bottom: .8rem;
+  margin-top: .5rem;
+}
+
+.btn .fl a {
+  letter-spacing: 0px;
+}
+
+.btn div a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn div a span {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.2rem;
+  background: url(../../images/photo_02.png)no-repeat center / 1.4rem 1.2rem;
+  vertical-align: middle;
+}
+
+.btn .fr a span {
+  background: url(../../images/ys.png)no-repeat center / 1.4rem 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.btn div:first-child a {
+  margin-top: 0.133333rem;
+}
+
+
+.btn .fl {
+  float: left;
+  position: relative;
+}
+
+.btn .fr {
+  float: right;
+  background-color: #AE57A4;
+  position: relative;
+}
+
+
+.btn .fl:after,
+.btn .fr:after {
+  position: absolute;
+  width: 110%;
+  height: 1.8rem;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: -.0rem;
+  left: -.52rem;
+  border-radius: 0.4rem;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #ff8000;
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms infinite;
+  animation: sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FF7D00, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+
+.btn .fr:after {
+  width: 109%;
+  box-shadow: 0 0 0 2px #AE57A4;
+  right: 0px;
+  -webkit-animation: sonarEffect2 1.3s ease-out 75ms infinite;
+  animation: sonarEffect2 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes sonarEffect2 {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #AE57A4, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(.9);
+    opacity: 0;
+  }
+}
+
+.clear {
+  clear: both
+}
+
+
+
+
+
+
+
+
+/* 医生专家团队 内容 */
+.yszj_con {
+  width: 100%;
+  text-align: center;
+}
+
+.yszj_con img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+/* 适配平板 */
+@media only screen and (max-width: 768px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.35rem;
+  }
+
+
+}
+
+/* 适配 Galaxy s5 */
+@media only screen and (max-width: 360px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.45rem;
+  }
+}
+
+
+
+/* 适配 Photo 5s */
+@media only screen and (max-width: 320px) {
+
+  .btn .fl:after,
+  .btn .fr:after {
+    left: -.4rem;
+  }
+}

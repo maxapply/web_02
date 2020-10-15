@@ -1,0 +1,199 @@
+/* 版心 */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+/* 内容区域 */
+.con {
+  width: 100%;
+  padding: .5rem .5rem 0rem;
+  box-sizing: border-box;
+}
+
+.con>.title {
+  height: 2rem;
+  text-align: center;
+}
+
+.con>.title h3 {
+  font-size: 1.1rem;
+  color: #ff8000;
+}
+
+
+.con .lis_01,
+.con .lis_02 {
+  width: 100%;
+  overflow: hidden;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #666;
+}
+
+.con .lis_01 a,
+.con .lis_02 a {
+  display: block;
+}
+
+.con .lis_01 .fl {
+  float: left;
+  width: 8rem;
+  text-align: center;
+}
+
+.con .lis_01 .fl img,
+.con .lis_02 .fr img {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px dashed #ccc;
+  margin-top: .5rem;
+}
+
+.con .lis_01 .fr {
+  float: right;
+  width: 10.5rem;
+}
+
+.con .lis_01 .fr .title {
+  text-align: center;
+}
+
+.con .lis_01 .fr .title h3,
+.con .lis_02 .fl .title h3 {
+  font-size: .75rem;
+  line-height: 1.5rem;
+  color: #2894FF;
+
+}
+
+.con .lis_01 .fr .text p,
+.con .lis_02 .fl .text p {
+  text-indent: 2em;
+  font-size: .7rem;
+}
+
+.con .lis_02 .fl {
+  width: 10.5rem;
+  float: left;
+}
+
+.con .lis_02 .fr {
+  float: right;
+  width: 8rem;
+  text-align: center;
+  margin-right: .1rem;
+}
+
+/* 分页 */
+.con .page {
+  width: 100%;
+  height: 3rem;
+  overflow: hidden;
+  padding: 0px .2rem;
+  box-sizing: border-box;
+}
+
+.con .page .pages {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #666;
+  margin-top: .5rem;
+  padding: 0.213333rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+  display: inline-flex;
+}
+
+.con .page .pages>li {
+  display: block;
+  flex: 1;
+
+}
+
+.con .page .pages>li a {
+  display: block;
+  font-size: 0.586667rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  height: 1.5rem;
+  width: 1.333333rem;
+  margin: 0 0.25rem 0 0;
+  color: #333;
+  background-color: #d0d0d0;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  /* border-top: 1px solid #ddd; */
+
+}
+
+.con .page .pages>li:first-child a {
+  border-radius: 1.066667rem 0 0 1.066667rem;
+}
+
+.con .page .pages>li:last-child a {
+  border-radius: 0 1.066667rem 1.066667rem 0;
+}
+
+.con .page .pages li.active a {
+  color: #2ecc71;
+  background-color: #666;
+  border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+  width: 100%;
+  height: 5rem;
+  background-color: pink;
+}

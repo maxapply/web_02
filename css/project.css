@@ -1,0 +1,57 @@
+.con .con_01 {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.con .con_01 ul {
+  width: 100%;
+  padding: 0rem 0.533333rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.con .con_01 ul li {
+  float: left;
+  width: 30%;
+  height: 5rem;
+  margin-left: 0.5rem;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+.con .con_01 ul li a {
+  text-align: center;
+  display: block;
+  font-size: .8rem;
+}
+
+.con .con_01 ul li a span {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background: url(../../images/about/con1_01.png)no-repeat center / 2rem 2rem;
+}
+
+.con .con_01 ul li a p {
+  line-height: 2rem;
+}
+
+.con .con_01 ul li:nth-child(2) a span {
+  background: url(../../images/about/con1_02.png)no-repeat center / 2rem 2rem;
+}
+
+.con .con_01 ul li:nth-child(3) a span {
+  background: url(../../images/about/con1_03.png)no-repeat center / 2rem 2rem;
+}
+
+.con .con_01 ul li:nth-child(4) a span {
+  background: url(../../images/about/con1_04.png)no-repeat center / 2rem 2rem;
+}
+
+.con .con_01 ul li:nth-child(5) a span {
+  background: url(../../images/about/con1_05.png)no-repeat center / 2rem 2rem;
+}
+
+.con .con_01 ul li:nth-child(6) a span {
+  background: url(../../images/about/con1_06.png)no-repeat center / 2rem 2rem;
+}
